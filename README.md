@@ -4,8 +4,6 @@ A responsive React UI single page project styled with Tailwind CSS.
 
 ## 🚀 Live Demo
 
-## 🚀 Live Demo
-
 🌐 [Live Site →](https://aliraza936.github.io/ui-react-tailwind/)
 
 
