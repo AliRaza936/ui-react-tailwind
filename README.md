@@ -12,5 +12,5 @@ A responsive React UI single page project styled with Tailwind CSS.
 - 🎨 Tailwind CSS
 - 🌐 GitHub Pages (for deployment)
 
-## 📁 Project Structure
+
 
