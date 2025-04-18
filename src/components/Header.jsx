@@ -35,19 +35,19 @@ function Header() {
             </ul>
             {/* Responsive List */}
             <ul className={`duration-300 md:hidden h-screen fixed top-[78px] w-full bg-black  text-white gap-10  ${toggle ? 'left-[0%]':'left-[-100%]'}` }>
-                <li className="p-5 cursor-pointer hover:underline">
+                <li   onClick={()=>{setToggle(false)}}  className="p-5 cursor-pointer hover:underline">
                     Home
                 </li >
-                <li className="p-5 cursor-pointer hover:underline">
+                <li  onClick={()=>{setToggle(false)}}  className="p-5 cursor-pointer hover:underline">
                     Company
                 </li>
-                <li className="p-5 cursor-pointer hover:underline">
+                <li  onClick={()=>{setToggle(false)}}  className="p-5 cursor-pointer hover:underline">
                     Resources
                 </li>
-                <li className="p-5 cursor-pointer hover:underline">
+                <li   onClick={()=>{setToggle(false)}} className="p-5 cursor-pointer hover:underline">
                     About
                 </li>
-                <li className="p-5 cursor-pointer hover:underline">
+                <li  onClick={()=>{setToggle(false)}}  className="p-5 cursor-pointer hover:underline">
                     Contact
                 </li>
             </ul>
